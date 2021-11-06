@@ -1,0 +1,36 @@
+{
+  "app": {
+    "app_name": "互联网旧物回收",
+    "app_url": "0.0.0.0:8001",
+    "app_mode": "debug",
+    "app_port": "8001"
+  },
+  "session": {
+    "session_name": "waste_session",
+    "session_secret": "",
+    "session_mode": "redis"
+  },
+  "mysql": {
+    "mysql_driver": "mysql",
+    "mysql_addr": "root@tcp(127.0.0.1:3306)/waste_py?charset=utf8",
+    "mysql_show": true
+  },
+  "redis": {
+    "redis_addr": "127.0.0.1:6379",
+    "redis_pwd": "",
+    "redis_hold": 604800
+  },
+  "rabbitmq": {
+    "rabbitmq_addr": "amqp://root:root@127.0.0.1:15672"
+  },
+  "jwt": {
+    "jwt_key" : "yunsong",
+    "issuer": "abc.com"
+  },
+  "email": {
+    "from_email": "",
+    "smtp_addr": "",
+    "smtp_port": "25",
+    "smtp_pass": ""
+  }
+}

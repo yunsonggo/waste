@@ -1,0 +1,34 @@
+{
+  "cities": [
+    {
+      "cityId": 410902,
+      "name": "华龙区",
+      "pinyin": "hualongqu"
+    },
+    {
+      "cityId": 410928,
+      "name": "濮阳县",
+      "pinyin": "puyangxian"
+    },
+    {
+      "cityId": 410922,
+      "name": "清丰县",
+      "pinyin": "qingfengxian"
+    },
+    {
+      "cityId": 410923,
+      "name": "南乐县",
+      "pinyin": "nanlexian"
+    },
+    {
+      "cityId": 410926,
+      "name": "范县",
+      "pinyin": "fanxian"
+    },
+    {
+      "cityId": 410927,
+      "name": "台前县",
+      "pinyin": "台前县"
+    }
+  ]
+}
